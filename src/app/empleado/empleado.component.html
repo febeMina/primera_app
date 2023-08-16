@@ -1,1 +1,22 @@
-<p>Aqui iria el nombre de un empleado!</p>
+<p>Nombre del empleado: {{ nombre }}</p>
+<p>Nombre del empleado: {{ apellido }}</p>
+<p>Nombre del empleado: {{ edad }}</p>
+<p>Nombre del empleado: {{ (edad>=18)? "Es maypr de edad": "Es menor de edad" }}</p>
+<p>Nombre del empleado: {{ empresa.value }}</p>
+<p>Documentodel empleado: {{ documento.value }}</p>
+<p>Numero del empleado: {{ telefono.value }}</p>
+
+
+
+Introduce la empresa: <input type="text" #empresa
+(keyup)="0">
+<br>
+<br>
+Introduce el documento: <input type="text" #documento
+(keyup)="0">
+<br>
+<br>
+Introduce el telefono: <input type="text" #telefono
+(keyup)="0">
+<br>
+

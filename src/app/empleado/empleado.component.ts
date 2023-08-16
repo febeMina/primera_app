@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./empleado.component.css']
 })
 export class EmpleadoComponent {
+  nombre = 'Juan';
+  apellido='Perez';
+  edad:number = 15;
+  empresa = 'Otro';
+  documento = 'Otro';
+  telefono = 'Otro';
 
+getEdad (){
+return this.edad;
+}
+
+set_empresa(empresa: string){
+}
 }
