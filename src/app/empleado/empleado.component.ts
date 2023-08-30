@@ -36,6 +36,9 @@ lanzar_mensaje(){
 }
 
 
+color_input = "#000000";
+
+
 estado_checkbox: boolean = true;
 
 habilitar_input_property = true;
